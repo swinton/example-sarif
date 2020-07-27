@@ -18,6 +18,17 @@
                 "warningType": "Redirect",
                 "checkName": "Redirect"
               }
+            },
+            {
+              "id": "181",
+              "shortDescription": {
+                "text": "Looks for calls to redirect_to with user input as arguments"
+              },
+              "helpUri": "https://brakemanscanner.org/docs/warning_types/redirect/",
+              "properties": {
+                "warningType": "Redirect",
+                "checkName": "Redirect"
+              }
             }
           ]
         }
@@ -50,8 +61,8 @@
               }
             }
           ],
-          "ruleId": "18",
-          "ruleIndex": 0
+          "ruleId": "181",
+          "ruleIndex": 1
         }
       ]
     }
