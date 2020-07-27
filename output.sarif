@@ -33,7 +33,8 @@
         {
           "level": "warning",
           "message": {
-            "text": "Possible unprotected redirect"
+            "text": "Possible unprotected redirect",
+            "markdown": "## Possible unprotected redirect\n### User input\n- `params[:url]`\n"
           },
           "locations": [
             {
